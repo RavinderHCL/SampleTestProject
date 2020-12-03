@@ -1,2 +1,0 @@
-# SampleTestProject
-My sample project 
