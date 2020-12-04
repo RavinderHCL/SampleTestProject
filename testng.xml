@@ -6,8 +6,7 @@
 			<!-- <class name="org.ust.test.Main"/>
 			<class name="org.ust.test.WebTest"/> -->
 			
-			<class name="com.hcl.taf.Main"/>
-			<class name="com.hcl.taf.TC1"/>
+			<class name="test_jar.test_jar.SelClasss1"/>
 		</classes>
 	</test>
 </suite>
