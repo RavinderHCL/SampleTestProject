@@ -22,7 +22,7 @@
 				<configuration>
 					<skipTests>false</skipTests>
 					<suiteXmlFiles>
-						<suiteXmlFile>testng.xml</suiteXmlFile>
+						<suiteXmlFile>src/test/resources/testng.xml</suiteXmlFile>
 					</suiteXmlFiles> 
 				<!-- <suiteXmlFiles>
 						<suiteXmlFile>src\test\resources\testsuites\QA\Web\Demo_DBS_Web_UI-Suite.xml</suiteXmlFile>
@@ -58,7 +58,7 @@
 			<artifactId>IAF_CORE</artifactId>
 			<version>1.0.0-SNAPSHOT</version>
 			<scope>system</scope>
-			<systemPath>${project.basedir}/test_jar-0.0.1-SNAPSHOT.jar</systemPath>
+			<systemPath>${project.basedir}/atsg.jar</systemPath>
 		</dependency>
     
   </dependencies>
