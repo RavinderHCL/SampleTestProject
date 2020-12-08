@@ -24,7 +24,7 @@ steps:
 - task: PublishTestResults@2
   inputs:
     testResultsFormat: 'JUnit'
-    testResultsFiles: '**/surefire-reports/*.html'
+    testResultsFiles: '**/surefire-reports/emailable-report.html'
 
 - task: PublishBuildArtifacts@1
   inputs:
