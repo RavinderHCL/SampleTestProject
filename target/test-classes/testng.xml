@@ -7,7 +7,9 @@
 			<class name="org.ust.test.WebTest"/> -->
 			
 			<class name="com.hcl.taf.Main"/>
-			<class name="com.hcl.taf.TC1"/>
+		<!-- 	<class name="com.hcl.taf.TC1"/>  -->
+		<class name="com.hcl.taf.Testvalidate"/> 
+			
 		</classes>
 	</test>
 </suite>

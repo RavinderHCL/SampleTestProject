@@ -58,7 +58,7 @@
 			<artifactId>IAF_CORE</artifactId>
 			<version>1.0.0-SNAPSHOT</version>
 			<scope>system</scope>
-			<systemPath>${project.basedir}/atsg.jar</systemPath>
+			<systemPath>${project.basedir}/atsg_latest8.jar</systemPath>
 		</dependency>
     
   </dependencies>
