@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[-Passed-]]>
+    </line>
+    <line>
+      <![CDATA[Started execution of GoogleSampleTest method]]>
+    </line>
+    <line>
+      <![CDATA[Web site http://www.google.com launched successfully]]>
+    </line>
+    <line>
+      <![CDATA[Verified the expected url : https://www.google.com/?gws_rd=ssl<div><a HREF='C:\Users\workspace_GTS_sep\TestAzure\Reports\screenshots\Wed_Dec_09_06_49_17_UTC_2020_screenshot.png'><img src='C:\Users\workspace_GTS_sep\TestAzure\Reports\screenshots\Wed_Dec_09_06_49_17_UTC_2020_screenshot.png' alt='Screen Shot' style='width:250px;height:200px'>Link to Screeshot</a></div>]]>
+    </line>
+    <line>
+      <![CDATA[Searched with value :Java<div><a HREF='C:\Users\workspace_GTS_sep\TestAzure\Reports\screenshots\Wed_Dec_09_06_49_18_UTC_2020_screenshot.png'><img src='C:\Users\workspace_GTS_sep\TestAzure\Reports\screenshots\Wed_Dec_09_06_49_18_UTC_2020_screenshot.png' alt='Screen Shot' style='width:250px;height:200px'>Link to Screeshot</a></div>]]>
+    </line>
+    <line>
+      <![CDATA[Displayed the Resultant values : Java<div><a HREF='C:\Users\workspace_GTS_sep\TestAzure\Reports\screenshots\Wed_Dec_09_06_49_20_UTC_2020_screenshot.png'><img src='C:\Users\workspace_GTS_sep\TestAzure\Reports\screenshots\Wed_Dec_09_06_49_20_UTC_2020_screenshot.png' alt='Screen Shot' style='width:250px;height:200px'>Link to Screeshot</a></div>]]>
+    </line>
+    <line>
+      <![CDATA[Google apps icon is displayed. <div><a HREF='C:\Users\workspace_GTS_sep\TestAzure\Reports\screenshots\Wed_Dec_09_06_49_22_UTC_2020_screenshot.png'><img src='C:\Users\workspace_GTS_sep\TestAzure\Reports\screenshots\Wed_Dec_09_06_49_22_UTC_2020_screenshot.png' alt='Screen Shot' style='width:250px;height:200px'>Link to Screeshot</a></div>]]>
+    </line>
+    <line>
+      <![CDATA[performed mouse hover Google apps icon  and clicked<div><a HREF='C:\Users\workspace_GTS_sep\TestAzure\Reports\screenshots\Wed_Dec_09_06_49_37_UTC_2020_screenshot.png'><img src='C:\Users\workspace_GTS_sep\TestAzure\Reports\screenshots\Wed_Dec_09_06_49_37_UTC_2020_screenshot.png' alt='Screen Shot' style='width:250px;height:200px'>Link to Screeshot</a></div>]]>
+    </line>
+    <line>
+      <![CDATA[Performed go back from current page <div><a HREF='C:\Users\workspace_GTS_sep\TestAzure\Reports\screenshots\Wed_Dec_09_06_49_42_UTC_2020_screenshot.png'><img src='C:\Users\workspace_GTS_sep\TestAzure\Reports\screenshots\Wed_Dec_09_06_49_42_UTC_2020_screenshot.png' alt='Screen Shot' style='width:250px;height:200px'>Link to Screeshot</a></div>]]>
+    </line>
+    <line>
+      <![CDATA[Verification of fontsize of gmaillink is 13px succeeded<div><a HREF='C:\Users\workspace_GTS_sep\TestAzure\Reports\screenshots\Wed_Dec_09_06_50_12_UTC_2020_screenshot.png'><img src='C:\Users\workspace_GTS_sep\TestAzure\Reports\screenshots\Wed_Dec_09_06_50_12_UTC_2020_screenshot.png' alt='Screen Shot' style='width:250px;height:200px'>Link to Screeshot</a></div>]]>
+    </line>
+    <line>
+      <![CDATA[-Passed-]]>
+    </line>
+  </reporter-output>
+  <suite name="TestSuite" duration-ms="60934" started-at="2020-12-09T06:49:11Z" finished-at="2020-12-09T06:50:12Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="60934" started-at="2020-12-09T06:49:11Z" finished-at="2020-12-09T06:50:12Z">
+      <class name="com.hcl.taf.Main">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hcl.taf.Main@79b4d0f]" name="setUp" duration-ms="4098" started-at="2020-12-09T06:49:11Z" finished-at="2020-12-09T06:49:15Z">
+          <reporter-output>
+            <line>
+              <![CDATA[-Passed-]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hcl.taf.Main@79b4d0f]" name="tearDown" is-config="true" duration-ms="625" started-at="2020-12-09T06:50:12Z" finished-at="2020-12-09T06:50:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.hcl.taf.Main -->
+      <class name="com.hcl.taf.GoogleUserStory">
+        <test-method status="PASS" signature="GoogleSampleTest()[pri:0, instance:com.hcl.taf.GoogleUserStory@6b2fad11]" name="GoogleSampleTest" duration-ms="56798" started-at="2020-12-09T06:49:15Z" finished-at="2020-12-09T06:50:12Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Started execution of GoogleSampleTest method]]>
+            </line>
+            <line>
+              <![CDATA[Web site http://www.google.com launched successfully]]>
+            </line>
+            <line>
+              <![CDATA[Verified the expected url : https://www.google.com/?gws_rd=ssl<div><a HREF='C:\Users\workspace_GTS_sep\TestAzure\Reports\screenshots\Wed_Dec_09_06_49_17_UTC_2020_screenshot.png'><img src='C:\Users\workspace_GTS_sep\TestAzure\Reports\screenshots\Wed_Dec_09_06_49_17_UTC_2020_screenshot.png' alt='Screen Shot' style='width:250px;height:200px'>Link to Screeshot</a></div>]]>
+            </line>
+            <line>
+              <![CDATA[Searched with value :Java<div><a HREF='C:\Users\workspace_GTS_sep\TestAzure\Reports\screenshots\Wed_Dec_09_06_49_18_UTC_2020_screenshot.png'><img src='C:\Users\workspace_GTS_sep\TestAzure\Reports\screenshots\Wed_Dec_09_06_49_18_UTC_2020_screenshot.png' alt='Screen Shot' style='width:250px;height:200px'>Link to Screeshot</a></div>]]>
+            </line>
+            <line>
+              <![CDATA[Displayed the Resultant values : Java<div><a HREF='C:\Users\workspace_GTS_sep\TestAzure\Reports\screenshots\Wed_Dec_09_06_49_20_UTC_2020_screenshot.png'><img src='C:\Users\workspace_GTS_sep\TestAzure\Reports\screenshots\Wed_Dec_09_06_49_20_UTC_2020_screenshot.png' alt='Screen Shot' style='width:250px;height:200px'>Link to Screeshot</a></div>]]>
+            </line>
+            <line>
+              <![CDATA[Google apps icon is displayed. <div><a HREF='C:\Users\workspace_GTS_sep\TestAzure\Reports\screenshots\Wed_Dec_09_06_49_22_UTC_2020_screenshot.png'><img src='C:\Users\workspace_GTS_sep\TestAzure\Reports\screenshots\Wed_Dec_09_06_49_22_UTC_2020_screenshot.png' alt='Screen Shot' style='width:250px;height:200px'>Link to Screeshot</a></div>]]>
+            </line>
+            <line>
+              <![CDATA[performed mouse hover Google apps icon  and clicked<div><a HREF='C:\Users\workspace_GTS_sep\TestAzure\Reports\screenshots\Wed_Dec_09_06_49_37_UTC_2020_screenshot.png'><img src='C:\Users\workspace_GTS_sep\TestAzure\Reports\screenshots\Wed_Dec_09_06_49_37_UTC_2020_screenshot.png' alt='Screen Shot' style='width:250px;height:200px'>Link to Screeshot</a></div>]]>
+            </line>
+            <line>
+              <![CDATA[Performed go back from current page <div><a HREF='C:\Users\workspace_GTS_sep\TestAzure\Reports\screenshots\Wed_Dec_09_06_49_42_UTC_2020_screenshot.png'><img src='C:\Users\workspace_GTS_sep\TestAzure\Reports\screenshots\Wed_Dec_09_06_49_42_UTC_2020_screenshot.png' alt='Screen Shot' style='width:250px;height:200px'>Link to Screeshot</a></div>]]>
+            </line>
+            <line>
+              <![CDATA[Verification of fontsize of gmaillink is 13px succeeded<div><a HREF='C:\Users\workspace_GTS_sep\TestAzure\Reports\screenshots\Wed_Dec_09_06_50_12_UTC_2020_screenshot.png'><img src='C:\Users\workspace_GTS_sep\TestAzure\Reports\screenshots\Wed_Dec_09_06_50_12_UTC_2020_screenshot.png' alt='Screen Shot' style='width:250px;height:200px'>Link to Screeshot</a></div>]]>
+            </line>
+            <line>
+              <![CDATA[-Passed-]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- GoogleSampleTest -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hcl.taf.GoogleUserStory@6b2fad11]" name="setUp" is-config="true" duration-ms="0" started-at="2020-12-09T06:49:15Z" finished-at="2020-12-09T06:49:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+      </class> <!-- com.hcl.taf.GoogleUserStory -->
+    </test> <!-- Test -->
+  </suite> <!-- TestSuite -->
+</testng-results>
