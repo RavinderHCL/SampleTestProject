@@ -1,0 +1,131 @@
+Administrator@EC2AMAZ-O2EPSOO MINGW64 /c
+$ pwd
+/c
+
+Administrator@EC2AMAZ-O2EPSOO MINGW64 /c
+$ cd C:\Azure_GIT\one\SampleTestProject
+bash: cd: C:Azure_GIToneSampleTestProject: No such file or directory
+
+Administrator@EC2AMAZ-O2EPSOO MINGW64 /c
+$ cd Azure_GIT
+
+Administrator@EC2AMAZ-O2EPSOO MINGW64 /c/Azure_GIT
+$ cd one
+
+Administrator@EC2AMAZ-O2EPSOO MINGW64 /c/Azure_GIT/one
+$ cd SampleTestProject
+
+Administrator@EC2AMAZ-O2EPSOO MINGW64 /c/Azure_GIT/one/SampleTestProject (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+Administrator@EC2AMAZ-O2EPSOO MINGW64 /c/Azure_GIT/one/SampleTestProject (master)
+$ git branch multiply
+
+Administrator@EC2AMAZ-O2EPSOO MINGW64 /c/Azure_GIT/one/SampleTestProject (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+Administrator@EC2AMAZ-O2EPSOO MINGW64 /c/Azure_GIT/one/SampleTestProject (master)
+$ git branch
+* master
+  multiply
+
+Administrator@EC2AMAZ-O2EPSOO MINGW64 /c/Azure_GIT/one/SampleTestProject (master)
+$ git checkout multiply
+Switched to branch 'multiply'
+
+Administrator@EC2AMAZ-O2EPSOO MINGW64 /c/Azure_GIT/one/SampleTestProject (multiply)
+$ git status
+On branch multiply
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Branching-multiply.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Administrator@EC2AMAZ-O2EPSOO MINGW64 /c/Azure_GIT/one/SampleTestProject (multiply)
+$ git add .
+
+Administrator@EC2AMAZ-O2EPSOO MINGW64 /c/Azure_GIT/one/SampleTestProject (multiply)
+$ git commit -m "test branching"
+[multiply 65385cd] test branching
+ 1 file changed, 5 insertions(+)
+ create mode 100644 Branching-multiply.txt
+
+Administrator@EC2AMAZ-O2EPSOO MINGW64 /c/Azure_GIT/one/SampleTestProject (multiply)
+$ git checkout main
+error: pathspec 'main' did not match any file(s) known to git
+
+Administrator@EC2AMAZ-O2EPSOO MINGW64 /c/Azure_GIT/one/SampleTestProject (multiply)
+$ git checkout master
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+
+Administrator@EC2AMAZ-O2EPSOO MINGW64 /c/Azure_GIT/one/SampleTestProject (master)
+$ git checkout multiply
+Switched to branch 'multiply'
+
+Administrator@EC2AMAZ-O2EPSOO MINGW64 /c/Azure_GIT/one/SampleTestProject (multiply)
+$ git diff master multiply
+diff --git a/Branching-multiply.txt b/Branching-multiply.txt
+new file mode 100644
+index 0000000..25392af
+--- /dev/null
++++ b/Branching-multiply.txt
+@@ -0,0 +1,5 @@
++asdsf
++dff
++dsfdfdfd
++
++dfdff
+\ No newline at end of file
+
+Administrator@EC2AMAZ-O2EPSOO MINGW64 /c/Azure_GIT/one/SampleTestProject (multiply)
+$ git checkout master
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+
+Administrator@EC2AMAZ-O2EPSOO MINGW64 /c/Azure_GIT/one/SampleTestProject (master)
+$ git merge multiply
+Updating 082fa09..65385cd
+Fast-forward
+ Branching-multiply.txt | 5 +++++
+ 1 file changed, 5 insertions(+)
+ create mode 100644 Branching-multiply.txt
+
+Administrator@EC2AMAZ-O2EPSOO MINGW64 /c/Azure_GIT/one/SampleTestProject (master)
+$ git diff master multiply
+
+Administrator@EC2AMAZ-O2EPSOO MINGW64 /c/Azure_GIT/one/SampleTestProject (master)
+$ git push
+Logon failed, use ctrl+c to cancel basic credential prompt.
+Github@123$
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/RavinderHCL/SampleTestProject.git/'
+
+Administrator@EC2AMAZ-O2EPSOO MINGW64 /c/Azure_GIT/one/SampleTestProject (master)
+$ Github@123$
+bash: Github@123$: command not found
+
+Administrator@EC2AMAZ-O2EPSOO MINGW64 /c/Azure_GIT/one/SampleTestProject (master)
+$ git push
+Logon failed, use ctrl+c to cancel basic credential prompt.
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 306 bytes | 306.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/RavinderHCL/SampleTestProject.git
+   082fa09..65385cd  master -> master
+
+Administrator@EC2AMAZ-O2EPSOO MINGW64 /c/Azure_GIT/one/SampleTestProject (master)
+$
